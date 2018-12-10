@@ -1,0 +1,28 @@
+{
+  "name": "quick-js-cli",
+  "version": "1.0.0",
+  "description": "A CLI that can develop JS faster.",
+  "bin": {
+    "quick": "./bin/quick.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "quick-js",
+    "js-cli"
+  ],
+  "author": "httpsxiao",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "execa": "^1.0.0",
+    "fs-extra": "^7.0.1",
+    "inquirer": "^6.2.1",
+    "ora": "^3.0.0",
+    "path": "^0.12.7",
+    "readline": "^1.3.0",
+    "string.prototype.padstart": "^3.0.0"
+  }
+}
