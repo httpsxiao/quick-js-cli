@@ -12,6 +12,12 @@
     "quick-js",
     "js-cli"
   ],
+  "files": [
+    "bin",
+    "lib",
+    "package.json",
+    "README.md"
+  ],
   "author": "httpsxiao",
   "license": "ISC",
   "dependencies": {
