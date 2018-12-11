@@ -1,6 +1,6 @@
 {
   "name": "quick-js-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI that can develop JS faster.",
   "bin": {
     "quick": "./bin/quick.js"
@@ -8,9 +8,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/httpsxiao/quick-js-cli.git"
+  },
   "keywords": [
+    "cli",
+    "quick",
     "quick-js",
-    "js-cli"
+    "js-cli",
+    "quick-cli"
   ],
   "files": [
     "bin",
@@ -20,6 +27,7 @@
   ],
   "author": "httpsxiao",
   "license": "ISC",
+  "homepage": "https://github.com/httpsxiao/quick-js-cli#readme",
   "dependencies": {
     "chalk": "^2.4.1",
     "commander": "^2.19.0",
